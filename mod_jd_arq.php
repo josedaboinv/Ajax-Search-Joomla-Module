@@ -20,11 +20,13 @@ $js = <<<JS
         $.ajax({
             type   : 'POST',
             data   : request,
+	                //I add this piece of code
 			beforeSend: function () {
-				$(".search-results").append("Procesando, espere por favor...<br>");
+				$(".search-results").append("..Wait please...<br>");
 			},
-			error:  function (response) {
-                $(".search-results").append('Error ajax: '+response.statusText );
+			//I add this piece of code to check error
+			error:  function (response) { 
+               		 $(".search-results").append('Error ajax: '+response.statusText );
 			},
             success: function (response) {
                 $('.search-results').html(response);
