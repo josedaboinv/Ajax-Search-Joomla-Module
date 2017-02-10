@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.4" method="upgrade">
+    <name>Ajax Search</name>
+    <creationDate>February 16, 2016</creationDate>
+    <author>Your awesome name goes here</author>
+    <authorUrl>http://www.yoursite.any</authorUrl>
+    <copyright>Copyright (C) 2016 Your name goes here. All rights reserved.</copyright>
+    <license>GNU General Public License version 2, or later.</license>
+    <version>1.0.0</version>
+    <description>Ajax Search</description>
+    <files>
+        <filename module="mod_jd_arq">mod_jd_arq.php</filename>
+        <filename>helper.php</filename>
+        <folder>tmpl</folder>
+    </files>
+</extension>
