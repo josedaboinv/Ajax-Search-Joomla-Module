@@ -4,4 +4,6 @@ Ajax Search Joomla Module
 
 This Module is a example from here https://www.ostraining.com/
 
-Does not work in joomla >= 3.6
+Special Thanks to http://stackoverflow.com/users/1789393/amit-ray, he update this module.
+
+Work in joomla 3.6.
