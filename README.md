@@ -1,6 +1,6 @@
 # Ajax-Search-Joomla-Module
 
-Ajax Search Joomla Module - "Hello World" Joomla Ajax Example.
+Ajax Search Joomla Module - Hello World Joomla Ajax Example.
 
 You can use for learning purpose.
 
