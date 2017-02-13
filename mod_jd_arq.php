@@ -10,10 +10,10 @@ $js = <<<JS
 (function ($) {
 	
     $(document).on('click', 'input[type=submit]', function () {
-		var value   = $('input[name=data]').val(),
+	    var value   = $('input[name="data"]').val(),
             request = {
                     'option' : 'com_ajax',
-                    'module' : 'ajax_search',
+                    'module' : 'jd_arq',
                     'data'   : value,
                     'format' : 'raw'
                 };
